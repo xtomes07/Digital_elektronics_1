@@ -27,7 +27,7 @@ fnor_o  <= (b_i nor (not a_i)) or (c_i nor b_i);
 
 
 ### Časové průběhy
-![grafy](Obrazky/screensDeMorgan.png)
+![grafy](Obrazky/screensDeMorgan.PNG)
 
 ### EDA odkaz
 https://www.edaplayground.com/x/ftZQ/
