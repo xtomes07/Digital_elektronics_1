@@ -1,4 +1,6 @@
 # Digital_elektronics_1
 ## Nadpis
 ### Podnadpis
-*zvyraznení*
+*kurzíva*
+**tučně**
+__tučne__
