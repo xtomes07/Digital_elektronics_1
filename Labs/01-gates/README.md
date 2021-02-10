@@ -45,7 +45,7 @@ f4_o  <= (x_i or y_i) and (x_i or z_i);
 ### Tabulka logických hodnot
 
 | **z** | **y** |**x** | **f1(z,y,x)** | **f2(z,y,x)**  | **f3(z,y,x)**  | **f4(z,y,x)** |
-| :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | :-: | :-: |:-: |
 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 0 | 0 | 1 | 0 | 0 | 1 | 1 |
 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -54,6 +54,9 @@ f4_o  <= (x_i or y_i) and (x_i or z_i);
 | 1 | 0 | 1 | 1 | 1 | 1 | 1 |
 | 1 | 1 | 0 | 0 | 0 | 1 | 1 |
 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+### Časové průběhy
+![grafy](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/01-gates/Obrazky/screenDist.PNG)
+
 
 ### EDA odkaz
 https://www.edaplayground.com/x/jqFR
