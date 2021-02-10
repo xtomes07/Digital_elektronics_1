@@ -22,7 +22,7 @@ První hlavička | Druhá hlavička
 2 | OR
 
 ##zdrojový kod
-'''vhdl
+```vhdl
 architecture dataflow of gates is
 begin
     for_o  <= a_i or b_i;
@@ -30,4 +30,4 @@ begin
     fxor_o <= a_i xor b_i;
 
 end architecture dataflow;
-'''
+```
