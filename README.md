@@ -16,3 +16,8 @@ __tučne__
 
 (https://www.seznam.cz „Domovská stránka Seznam“)
 
+První hlavička | Druhá hlavička
+-------------- |---------------
+1 | AND
+2 | OR
+
