@@ -32,3 +32,4 @@ begin
 end architecture dataflow;
 ```
 Alt 96
+[GitHub](https://github.com/xtomes07/Digital_elektronics_1/)
