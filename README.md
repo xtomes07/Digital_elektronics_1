@@ -11,6 +11,6 @@ __tučne__
 - deset
 
 1. vec1
-2. vec2
-3. vec3
+5. vec2
+10. vec3
 
