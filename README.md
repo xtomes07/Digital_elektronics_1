@@ -9,4 +9,8 @@ __tučne__
 * dva
 * pet
 * deset
+- jedna
+- dva
+- pet
+- deset
 
