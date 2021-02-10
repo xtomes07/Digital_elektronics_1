@@ -32,4 +32,30 @@ fnor_o  <= (b_i nor (not a_i)) or (c_i nor b_i);
 ### EDA odkaz
 https://www.edaplayground.com/x/ftZQ/
 
+## 3. Ověření Distributivních zákonů
+
+### Výpis VHDL kódu:
+```vhdl
+f1_o  <= x_i and (y_i or z_i);
+f2_o  <=(x_i and y_i) or (x_i and z_i);
+f3_o  <= x_i or (y_i and z_i);
+f4_o  <= (x_i or y_i) and (x_i or z_i);
+```
+
+### Tabulka logických hodnot
+
+| **z** | **y** |**x** | **f1(z,y,x)** | **f2(z,y,x)**  | **f3(z,y,x)**  | **f4(z,y,x)** |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 1 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 | 1 | 1 | 1 |
+| 1 | 1 | 0 | 0 | 0 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+
+### EDA odkaz
+https://www.edaplayground.com/x/jqFR
+
 
