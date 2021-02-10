@@ -1,4 +1,5 @@
 # Lab 1:
+<<<<<<< HEAD
 
 ## 1. Odkaz na GitHub
 https://github.com/xtomes07/Digital_elektronics_1/
@@ -31,3 +32,5 @@ fnor_o  <= (b_i nor (not a_i)) or (c_i nor b_i);
 
 ### EDA odkaz
 https://www.edaplayground.com/x/ftZQ
+=======
+>>>>>>> 610cd6f6262f5e32d81422235dc5ee76a0946e2b
