@@ -5,4 +5,8 @@
 **tučně**
 __tučne__
 
+*jedna
+*dva
+*pet
+*10
 
