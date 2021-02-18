@@ -1,5 +1,6 @@
 # Lab 2 :
 
+## Pravdivostní tabulka 2-bitového komparátoru
 
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B > A** | **B = A** | **B < A** |
@@ -20,3 +21,5 @@
 | 13 | 1 1 | 0 1 | 1 | 0 | 0 |
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
+
+## 2-bitový komparátor
