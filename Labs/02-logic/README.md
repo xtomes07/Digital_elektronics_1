@@ -145,34 +145,48 @@ begin
         report "Test failed for input combination: 0000, 0011" severity error;
         
         --4
+        s_b <= "0001"; s_a <= "0011"; wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A ='1'))
+        -- If false, then report an error
+        report "Test failed for input combination: 0001, 0011" severity error;
+        
+        --5
+        s_b <= "0001"; s_a <= "0111"; wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A ='1'))
+        -- If false, then report an error
+        report "Test failed for input combination: 0001, 0111" severity error;
+        
+        --6
         s_b <= "0011"; s_a <= "0011"; wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A ='0'))
         -- If false, then report an error
         report "Test failed for input combination: 0011, 0011" severity error;
         
-        --5
+        --7
         s_b <= "0111"; s_a <= "0011"; wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A ='0'))
         -- If false, then report an error
         report "Test failed for input combination: 0111, 0011" severity error;
         
-        --6
+        --8
         s_b <= "1111"; s_a <= "0011"; wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A ='0'))
         -- If false, then report an error
         report "Test failed for input combination: 1111, 0011" severity error;
         
-        --7
+        --9
         s_b <= "1111"; s_a <= "1011"; wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A ='0'))
         -- If false, then report an error
         report "Test failed for input combination: 1111, 1011" severity error;
         
-        --8
+        --10 ZDE NASTAVENA CHYBA
         s_b <= "1111"; s_a <= "1111"; wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A ='0'))
@@ -188,6 +202,7 @@ begin
     end process p_stimulus;
 
 end architecture testbench;
+
 ```
 
 ### Výpis výstupu konzole s jednou hlašenou chybou
