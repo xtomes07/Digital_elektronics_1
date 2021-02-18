@@ -34,3 +34,7 @@
 
 #### Karnaughova mapa pro B<A:
 ![B<A](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/02-logic/Obrazky/AvetsinezB_PoS.png)
+
+### EDA Playground
+https://www.edaplayground.com/x/Bbhy
+
