@@ -23,3 +23,8 @@
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
 ## 2-bitový komparátor
+
+### Karnaughovy mapy
+
+#### Karnaughova mapa pro rovnost
+![ROVNOST](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/02-logic/Obrazky/rovnost.png)
