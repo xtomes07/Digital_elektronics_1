@@ -22,21 +22,24 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
+
 ## 2-BITOVÝ KOMPARÁTOR
 
 ### Karnaughovy mapy
 
-#### Karnaughova mapa pro rovnost:
+* Karnaughova mapa pro rovnost:
 ![ROVNOST](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/02-logic/Obrazky/rovnost.png)
 
-#### Karnaughova mapa pro B>A:
+* Karnaughova mapa pro B>A:
 ![B>A](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/02-logic/Obrazky/BvetsinezA_SoP.png)
 
-#### Karnaughova mapa pro B<A:
+* Karnaughova mapa pro B<A:
 ![B<A](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/02-logic/Obrazky/AvetsinezB_PoS.png)
 
 ### EDA Playground
 https://www.edaplayground.com/x/Bbhy
+
+
 
 ## 4 -BITOVÝ KOMPARÁTOR
 
@@ -188,7 +191,7 @@ end architecture testbench;
 ```
 
 ### Výpis výstupu konzole s jednou hlašenou chybou
-
+```
 analyze design.vhd
 analyze testbench.vhd
 elaborate tb_comparator_4bit
@@ -197,6 +200,7 @@ testbench.vhd:107:9:@800ns:(assertion error): Test failed for input combination:
 testbench.vhd:115:9:@800ns:(report note): Stimulus process finished
 Finding VCD file...
 ./dump.vcd
+```
 
 ### EDA Playground 4-bitový komparátor
 
