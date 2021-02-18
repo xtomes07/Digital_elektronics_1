@@ -186,7 +186,7 @@ begin
         -- If false, then report an error
         report "Test failed for input combination: 1111, 1011" severity error;
         
-        --10 ZDE NASTAVENA CHYBA
+        --10 
         s_b <= "1111"; s_a <= "1111"; wait for 100 ns;
         -- Expected output
         assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A ='0'))
