@@ -27,13 +27,13 @@
 
 ### Karnaughovy mapy
 
-* Karnaughova mapa pro rovnost:
+#### Karnaughova mapa pro rovnost:
 ![ROVNOST](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/02-logic/Obrazky/rovnost.png)
 
-* Karnaughova mapa pro B>A:
+#### Karnaughova mapa pro B>A:
 ![B>A](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/02-logic/Obrazky/BvetsinezA_SoP.png)
 
-* Karnaughova mapa pro B<A:
+#### Karnaughova mapa pro B<A:
 ![B<A](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/02-logic/Obrazky/AvetsinezB_PoS.png)
 
 ### EDA Playground
