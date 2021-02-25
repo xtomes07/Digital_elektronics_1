@@ -74,5 +74,31 @@ p_stimulus : process
 ### Screenshot se simulovanými časovými průběhy
 ![grafy](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/03-vivado/Obrazky/prubehy.PNG)
 
+##3 Návod k Vivado
 
+### Tvorba nového projektu:
+1. Na úvodní obrazovce zvolit "Create Project"
+2. Vyplnit "Project name" a Project "location" 
+3. Na strane Project Type zvolit "RTL Project" a nic nezaškrtávat
+4. Na Add Sources => Create File => File type: VHDL, zvolit File => OK a přednout Target language a Simulator language do VHDL
+5. NA Add Constraints => preskocit
+6. Na Deafault Part => Boars => Search: Nexys A7-100t a zvolit ji
+7. Na Nes Project summary to bude u hazet chybu na tretim radku, vse ok neresit => Finish
+8. Po vytvořeni projektu vyskoci tabulka Define Module => nic nedelat jen OK a Yes
+9. V okne Source se nam zobrazí soubor se zdrojovým kódem
 
+### Přidání souboru testbench
+1. V otevrenem projektu => File => Add sources
+2. V Add sources vybrat "Add or create simulation sources" => Next
+3. V Add or Create Desing Sources => Create File => File type VHDL, File name s predponou "tb_" => Finish
+4. Vyskocí okno Define Module => nic nedelat jen OK a Yes
+
+### Spouštění simulace
+1. V levém horním rohu => Flow => Run simulation => Run Behavioral Simulation
+
+### Přidání XDC souboru
+1. V otevrenem projektu => File => Add sources
+2. V Add sources vybrat "Add or create constraints" => Next
+3. V Add or Create Constraints => Create File => File type:XDC, File name: "nexys-a7-50t" => Finish
+4. Otevrem si  Sources => Constraints => a nas vytvoreny soubor "nexys-a7-50t"
+5. do toho souboru nakopirujem ze stranky https://github.com/Digilent/digilent-xdc => Nexys-A7-50T-Master.xdc zdrojový kód, který nasledně upravíme
