@@ -2,7 +2,7 @@
 
 ## 1. Přípravné úkoly
 
-### Tabulka s připojením 16 posuvných spínaču(SWITCHU) a 16 LED diod pro desku Nexys A7 
+### Tabulka s připojením 16 posuvných spínačů(SWITCHU) a 16 LED diod pro desku Nexys A7 
 
 | | **SWITCH => PIN** | **LED => PIN** |
 | :-: | :-: | :-: |
@@ -72,7 +72,7 @@ p_stimulus : process
 ```
 
 ### Screenshot se simulovanými časovými průběhy
-
+![grafy](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/03-vivado/Obrazky/prubehy.PNG)
 
 
 
