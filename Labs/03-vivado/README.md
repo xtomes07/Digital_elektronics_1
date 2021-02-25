@@ -74,7 +74,7 @@ p_stimulus : process
 ### Screenshot se simulovanými časovými průběhy
 ![grafy](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/03-vivado/Obrazky/prubehy.PNG)
 
-##3 Návod k Vivado
+## 3 Návod k Vivado
 
 ### Tvorba nového projektu:
 1. Na úvodní obrazovce zvolit "Create Project"
