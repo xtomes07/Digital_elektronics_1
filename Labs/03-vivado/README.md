@@ -23,7 +23,7 @@
 | 14 | SW14 => U11 | LD14 => V12 | 
 | 15 | SW15 => V10 | LD15 => V11 |
 
-Pozn: LED diody jsou zapojeny v active-high mód.
+Pozn: LED diody jsou zapojeny v active-high módu.
 
 ## 2. Dvoubitový multiplexor 4=>1
 
