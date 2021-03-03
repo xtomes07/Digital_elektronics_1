@@ -112,6 +112,22 @@ p_stimulus : process
 ```
 
 ### Screenshot ze simulace
-sem odkaz na obrazek
+![Simulace-screen](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/04-segment/Obr%C3%A1zky/simulace-sedmisegmentovka.PNG)
+
+### VHDL kód z top.vhd
+
+```vhdl
+hex2seg : entity work.hex_7seg
+        port map(
+            hex_i    => SW,
+            seg_o(6) => CA,
+            seg_o(5) => CB,
+            seg_o(4) => CC,
+            seg_o(3) => CD,
+            seg_o(2) => CE,
+            seg_o(1) => CF,
+            seg_o(0) => CG
+        );
+```
 
 ## 3. LED (7:4) indikátory
