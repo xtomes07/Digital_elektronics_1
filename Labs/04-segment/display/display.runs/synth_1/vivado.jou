@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  3 21:50:24 2021
+# Process ID: 14116
+# Current directory: C:/Users/Client/Desktop/Vysok kola/4. Semestr/DE1/Cvika/4/display/display.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/Client/Desktop/Vysok kola/4. Semestr/DE1/Cvika/4/display/display.runs/synth_1/top.vds
+# Journal file: C:/Users/Client/Desktop/Vysok kola/4. Semestr/DE1/Cvika/4/display/display.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace

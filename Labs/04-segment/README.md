@@ -179,4 +179,4 @@ hex2seg : entity work.hex_7seg
 
 ### Screenshot ze simulace
 
-![Simulace-screen](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/04-segment/Obr%C3%A1zky/simulace-sedmisegmentovka.PNG)
+![Simulace-screen](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/04-segment/Obr%C3%A1zky/LED(7-4)-simulace.PNG)
