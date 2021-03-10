@@ -85,7 +85,7 @@ p_reset_gen : process
 ```
 
 ### Screenschot simulace
-prepsat
+
 ![simulace_cnt_up_down](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/05-counter/Obr%C3%A1zky/grafy.PNG)
 
 ## 3. Top level
@@ -128,5 +128,8 @@ hex2seg : entity work.hex_7seg
         seg_o(2) => CE,                     
         seg_o(1) => CF,                     
         seg_o(0) => CG                      
-    );                                      
+    );     
+                                 
 ```
+
+![TOP](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/05-counter/Obr%C3%A1zky/obrazek.png)
