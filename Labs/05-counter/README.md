@@ -73,8 +73,13 @@ p_reset_gen : process
         -- Change counter direction
         s_cnt_up <= '1';
         wait for 380 ns;
-        s_cnt_up <= '0';
+        assert((s_cnt ="11110") and(s_cnt_up= '1') and (s_reset='0'))
+        report "Test failed for input combination: 30, 1, 0" severity error;
+        
+	s_cnt_up <= '0';
         wait for 220 ns;
+        assert((s_cnt ="01000") and(s_cnt_up= '0') and (s_reset='0'))
+        report "Test failed for input combination: 8, 0, 0" severity error;
 
         -- Disable counting
         s_en     <= '0';
