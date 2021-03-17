@@ -213,4 +213,4 @@ end architecture Behavioral;
 
 
 ## 3. Osmi-digitový ovladač
-![schema](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/06-display_driver/Obr%C3%A1zky/simulace.PNG)
+![schema](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/06-display_driver/Obr%C3%A1zky/imag_8digit.png)
