@@ -5,7 +5,7 @@
 ![Characteristic equations](Obrázky/CodeCogsEqn.png)
 
 
-
+### Typ D
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](Obrázky/eq_uparrow.png) | 0 | 0 | 0 | Input signal is sampled at the rising edge of clk and stored to FF |
@@ -13,6 +13,7 @@
    | ![rising](Obrázky/eq_uparrow.png) | 1 | 0 | 1 | Input signal is sampled at the rising edge of clk and stored to FF |
    | ![rising](Obrázky/eq_uparrow.png) | 1 | 1 | 1 | Input signal is sampled at the rising edge of clk and stored to FF |
 
+### Typ JK
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-: | :-- |
    | ![rising](Obrázky/eq_uparrow.png) | 0 | 0 | 0 | 0 | No change |
@@ -24,6 +25,7 @@
    | ![rising](Obrázky/eq_uparrow.png) | 1 | 1 | 0 | 1 | Toggle |
    | ![rising](Obrázky/eq_uparrow.png) | 1 | 1 | 1 | 0 | Toggle |
 
+### Typ T
    | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](Obrázky/eq_uparrow.png) | 0 | 0 | 0 | no change |
