@@ -655,6 +655,6 @@ p_stimulus : process
 ![screen_simulace4](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/07-ffs/Obr%C3%A1zky/t_ff.PNG)
 
 ## 4. Posuvný registr
-![registr](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/07-ffs/Obr%C3%A1zky/register.PNG)
+![registr](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/07-ffs/Obr%C3%A1zky/register.png)
 
 
