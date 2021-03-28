@@ -3,12 +3,12 @@
 ## 1. Přípravné úkoly
 
 ![Characteristic equations](Images/eq_flip_flops.png)
-<!--
+
 \begin{align*}
    q_{n+1}^D =& d \\
     q_{n+1}^{JK} =& j\overline{q}_n\,+\overline{k}q_n\\\
     q_{n+1}^T =& t\overline{q}_n\,+\overline{t}q_n\\\
-\end{align*}-->
+\end{align*}
 
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
@@ -655,3 +655,8 @@ p_stimulus : process
 ![screen_simulace3](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/07-ffs/Obr%C3%A1zky/jk_ff_rst.PNG)
 #### tb_t_ff_rst
 ![screen_simulace4](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/07-ffs/Obr%C3%A1zky/t_ff.PNG)
+
+## 4. Posuvný registr
+![registr](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/07-ffs/Obr%C3%A1zky/register.PNG)
+
+
