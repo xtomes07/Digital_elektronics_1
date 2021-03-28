@@ -12,7 +12,7 @@
 
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-   | ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | Input signal is sampled at the rising edge of clk and stored to FF |
+   | ![rising](Obrázky/eq_uparrow.png) | 0 | 0 | 0 | Input signal is sampled at the rising edge of clk and stored to FF |
    | ![rising](Images/eq_uparrow.png) | 0 | 1 | 0 | Input signal is sampled at the rising edge of clk and stored to FF |
    | ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | Input signal is sampled at the rising edge of clk and stored to FF |
    | ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | Input signal is sampled at the rising edge of clk and stored to FF |
@@ -173,7 +173,7 @@ end process p_d_latch;
         end process p_stimulus;
 ```
 
-![screen_simulace](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/06-display_driver/Obr%C3%A1zky/imag_8digit.png)
+![screen_simulace](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/07-ffs/Obr%C3%A1zky/D-latch.PNG)
 
 
 
