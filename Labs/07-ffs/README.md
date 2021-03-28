@@ -177,7 +177,7 @@ end process p_d_latch;
 
 ## 3. Flip_flops
 
-###VHDL kódy z procesů
+### VHDL kódy z procesů
 
 #### p_d_ff_arst
 
@@ -196,7 +196,7 @@ begin
 end process p_d_ff_arst;
 ```
 
-### p_d_ff_rst
+#### p_d_ff_rst
 
 ```vhdl
 p_d_ff_rst : process (clk)
@@ -213,7 +213,7 @@ p_d_ff_rst : process (clk)
     end process p_d_ff_rst;
 ```
 
-### p_jk_ff_rst
+#### p_jk_ff_rst
 
 
 ```vhdl
@@ -241,7 +241,7 @@ p_jk_ff_rst : process (clk)
          end if;
 ```
 
-### p_t_ff_rst
+#### p_t_ff_rst
 
 
 ```vhdl
@@ -648,9 +648,10 @@ p_stimulus : process
 ### Screenshoty ze simulaci
 
 #### tb_d_ff_arst
-
+![screen_simulace1](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/07-ffs/Obr%C3%A1zky/d_ff_arst.PNG)
 #### tb_d_ff_rst
-
+![screen_simulace2](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/07-ffs/Obr%C3%A1zky/d_ff_rst.PNG)
 #### tb_jk_ff_rst
-
+![screen_simulace3](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/07-ffs/Obr%C3%A1zky/jk_ff_rst.PNG)
 #### tb_t_ff_rst
+![screen_simulace4](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/07-ffs/Obr%C3%A1zky/t_ff.PNG)
