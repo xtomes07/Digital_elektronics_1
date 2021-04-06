@@ -10,7 +10,7 @@
 | **Output R** | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 
 Připojení RGB LED na desce NEXYS A7
-![zapojeni](Obrázky/zapojeni.png)
+![zapojeni](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/08-traffic_lights/Obr%C3%A1zky/zapojeni.PNG)
 
 Nastavení barev
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
@@ -136,4 +136,20 @@ p_output_fsm : process(s_state)
     end process p_output_fsm;
 ```
 
-![screenSimulace](Obrázky/graf1.png)
+![screenSimulace](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/08-traffic_lights/Obr%C3%A1zky/graf1.PNG)
+
+## 3. smart ovladač
+### Tabulka stavů
+
+|**Current state** | **00** (no cars) | **01** (cars to west) | **10** (cars to south) | **11** (cars both directions) |
+| :-- | :-: | :-: | :-: | :-: |
+| `STOP1`      | `WEST_GO`  | `WEST_GO` | `SOUTH_GO` | `WEST_GO` |
+| `WEST_GO`    | `WEST_GO`  | `WEST_GO` | `WEST_WAIT` | `WEST_WAIT` |
+| `WEST_WAIT`  | `STOP2` | `STOP2` | `STOP2` | `STOP2` |
+| `STOP2`      | `SOUTH_GO` | `WEST_GO` | `SOUTH_GO` | `SOUTH_GO` |
+| `SOUTH_GO`   | `SOUTH_GO` | `SOUTH_WAIT` | `SOUTH_GO` | `SOUTH_WAIT` |
+| `SOUTH_WAIT` | `STOP1`  | `STOP1` | `STOP1` | `STOP1` |
+
+
+![StavovyDiagram_smart](https://github.com/xtomes07/Digital_elektronics_1/blob/main/Labs/08-traffic_lights/Obr%C3%A1zky/graf1.PNG)
+prepsat
